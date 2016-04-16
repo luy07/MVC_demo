@@ -9,3 +9,14 @@ C:\Users\luyuquan\OneDrive\MyCode\StandardMvcDemo\Demo.Dto\bin\Debug\AutoMapper.
 C:\Users\luyuquan\OneDrive\MyCode\StandardMvcDemo\Demo.Dto\obj\Debug\Dto.csprojResolveAssemblyReference.cache
 C:\Users\luyuquan\OneDrive\MyCode\StandardMvcDemo\Demo.Dto\obj\Debug\Demo.Dto.dll
 C:\Users\luyuquan\OneDrive\MyCode\StandardMvcDemo\Demo.Dto\obj\Debug\Demo.Dto.pdb
+D:\Documents\GitHub\MVC_Demo\Demo.Dto\bin\Debug\Demo.Dto.dll
+D:\Documents\GitHub\MVC_Demo\Demo.Dto\bin\Debug\Demo.Dto.pdb
+D:\Documents\GitHub\MVC_Demo\Demo.Dto\bin\Debug\AutoMapper.dll
+D:\Documents\GitHub\MVC_Demo\Demo.Dto\bin\Debug\Demo.Domain.dll
+D:\Documents\GitHub\MVC_Demo\Demo.Dto\bin\Debug\Domain.Seedwork.dll
+D:\Documents\GitHub\MVC_Demo\Demo.Dto\bin\Debug\Demo.Domain.pdb
+D:\Documents\GitHub\MVC_Demo\Demo.Dto\bin\Debug\Domain.Seedwork.pdb
+D:\Documents\GitHub\MVC_Demo\Demo.Dto\bin\Debug\AutoMapper.xml
+D:\Documents\GitHub\MVC_Demo\Demo.Dto\obj\Debug\Dto.csprojResolveAssemblyReference.cache
+D:\Documents\GitHub\MVC_Demo\Demo.Dto\obj\Debug\Demo.Dto.dll
+D:\Documents\GitHub\MVC_Demo\Demo.Dto\obj\Debug\Demo.Dto.pdb

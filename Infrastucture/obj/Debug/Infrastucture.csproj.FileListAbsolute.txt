@@ -2,3 +2,8 @@ C:\Users\luyuquan\OneDrive\MyCode\StandardMvcDemo\Infrastucture\bin\Debug\Infras
 C:\Users\luyuquan\OneDrive\MyCode\StandardMvcDemo\Infrastucture\bin\Debug\Infrastucture.pdb
 C:\Users\luyuquan\OneDrive\MyCode\StandardMvcDemo\Infrastucture\obj\Debug\Infrastucture.dll
 C:\Users\luyuquan\OneDrive\MyCode\StandardMvcDemo\Infrastucture\obj\Debug\Infrastucture.pdb
+D:\Documents\GitHub\MVC_Demo\Infrastucture\bin\Debug\Infrastucture.dll
+D:\Documents\GitHub\MVC_Demo\Infrastucture\bin\Debug\Infrastucture.pdb
+D:\Documents\GitHub\MVC_Demo\Infrastucture\obj\Debug\Infrastucture.csprojResolveAssemblyReference.cache
+D:\Documents\GitHub\MVC_Demo\Infrastucture\obj\Debug\Infrastucture.dll
+D:\Documents\GitHub\MVC_Demo\Infrastucture\obj\Debug\Infrastucture.pdb

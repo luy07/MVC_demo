@@ -9,3 +9,14 @@ C:\Users\luyuquan\OneDrive\MyCode\StandardMvcDemo\Demo.Domain\bin\Debug\EntityFr
 C:\Users\luyuquan\OneDrive\MyCode\StandardMvcDemo\Demo.Domain\obj\Debug\Domain.csprojResolveAssemblyReference.cache
 C:\Users\luyuquan\OneDrive\MyCode\StandardMvcDemo\Demo.Domain\obj\Debug\Demo.Domain.dll
 C:\Users\luyuquan\OneDrive\MyCode\StandardMvcDemo\Demo.Domain\obj\Debug\Demo.Domain.pdb
+D:\Documents\GitHub\MVC_Demo\Demo.Domain\bin\Debug\Demo.Domain.dll
+D:\Documents\GitHub\MVC_Demo\Demo.Domain\bin\Debug\Demo.Domain.pdb
+D:\Documents\GitHub\MVC_Demo\Demo.Domain\bin\Debug\Data.Seedwork.dll
+D:\Documents\GitHub\MVC_Demo\Demo.Domain\bin\Debug\Domain.Seedwork.dll
+D:\Documents\GitHub\MVC_Demo\Demo.Domain\bin\Debug\EntityFramework.dll
+D:\Documents\GitHub\MVC_Demo\Demo.Domain\bin\Debug\Data.Seedwork.pdb
+D:\Documents\GitHub\MVC_Demo\Demo.Domain\bin\Debug\Domain.Seedwork.pdb
+D:\Documents\GitHub\MVC_Demo\Demo.Domain\bin\Debug\EntityFramework.xml
+D:\Documents\GitHub\MVC_Demo\Demo.Domain\obj\Debug\Domain.csprojResolveAssemblyReference.cache
+D:\Documents\GitHub\MVC_Demo\Demo.Domain\obj\Debug\Demo.Domain.dll
+D:\Documents\GitHub\MVC_Demo\Demo.Domain\obj\Debug\Demo.Domain.pdb
