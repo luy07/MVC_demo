@@ -1,0 +1,4 @@
+C:\Users\luyuquan\OneDrive\MyCode\StandardMvcDemo\Domain.Seedwork\bin\Debug\Domain.Seedwork.dll
+C:\Users\luyuquan\OneDrive\MyCode\StandardMvcDemo\Domain.Seedwork\bin\Debug\Domain.Seedwork.pdb
+C:\Users\luyuquan\OneDrive\MyCode\StandardMvcDemo\Domain.Seedwork\obj\Debug\Domain.Seedwork.dll
+C:\Users\luyuquan\OneDrive\MyCode\StandardMvcDemo\Domain.Seedwork\obj\Debug\Domain.Seedwork.pdb

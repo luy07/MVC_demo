@@ -1,0 +1,11 @@
+C:\Users\luyuquan\OneDrive\MyCode\StandardMvcDemo\Demo.Domain\bin\Debug\Demo.Domain.dll
+C:\Users\luyuquan\OneDrive\MyCode\StandardMvcDemo\Demo.Domain\bin\Debug\Demo.Domain.pdb
+C:\Users\luyuquan\OneDrive\MyCode\StandardMvcDemo\Demo.Domain\bin\Debug\Data.Seedwork.dll
+C:\Users\luyuquan\OneDrive\MyCode\StandardMvcDemo\Demo.Domain\bin\Debug\Domain.Seedwork.dll
+C:\Users\luyuquan\OneDrive\MyCode\StandardMvcDemo\Demo.Domain\bin\Debug\EntityFramework.dll
+C:\Users\luyuquan\OneDrive\MyCode\StandardMvcDemo\Demo.Domain\bin\Debug\Data.Seedwork.pdb
+C:\Users\luyuquan\OneDrive\MyCode\StandardMvcDemo\Demo.Domain\bin\Debug\Domain.Seedwork.pdb
+C:\Users\luyuquan\OneDrive\MyCode\StandardMvcDemo\Demo.Domain\bin\Debug\EntityFramework.xml
+C:\Users\luyuquan\OneDrive\MyCode\StandardMvcDemo\Demo.Domain\obj\Debug\Domain.csprojResolveAssemblyReference.cache
+C:\Users\luyuquan\OneDrive\MyCode\StandardMvcDemo\Demo.Domain\obj\Debug\Demo.Domain.dll
+C:\Users\luyuquan\OneDrive\MyCode\StandardMvcDemo\Demo.Domain\obj\Debug\Demo.Domain.pdb

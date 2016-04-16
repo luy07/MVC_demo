@@ -1,0 +1,4 @@
+C:\Users\luyuquan\OneDrive\MyCode\StandardMvcDemo\Infrastucture\bin\Debug\Infrastucture.dll
+C:\Users\luyuquan\OneDrive\MyCode\StandardMvcDemo\Infrastucture\bin\Debug\Infrastucture.pdb
+C:\Users\luyuquan\OneDrive\MyCode\StandardMvcDemo\Infrastucture\obj\Debug\Infrastucture.dll
+C:\Users\luyuquan\OneDrive\MyCode\StandardMvcDemo\Infrastucture\obj\Debug\Infrastucture.pdb
