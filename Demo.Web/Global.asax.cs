@@ -2,6 +2,8 @@
 using Autofac.Integration.Mvc;
 using Data.Seedwork;
 using Demo.Data;
+using Demo.Domain.Customers;
+using Demo.Dto;
 using Demo.Service;
 using Domain.Seedwork;
 using System;
@@ -30,11 +32,10 @@ namespace Demo.Web
 
             timer.Restart();
             //初始化数据库
-            new YmtCS_DbInitializer().InitializeDatabase(new YmatouUnitOfWork());
+            new YmtCS_DbInitializer().InitializeDatabase(new MainUnitOfWork());
 
               timer.Stop();
             System.Diagnostics.Debug.WriteLine(string.Format("InitializeDatabase() elapsed：{0} ms !", timer.ElapsedMilliseconds));
-
         }
 
 
@@ -45,19 +46,24 @@ namespace Demo.Web
         {
             var containerBuilder = new ContainerBuilder();
 
-            var assembly1 = System.Reflection.Assembly.GetAssembly(typeof(IRepository<>));
-            var assembly2 = System.Reflection.Assembly.GetAssembly(typeof(Repository<>));
-            var assembly3 = System.Reflection.Assembly.GetAssembly(typeof(IService));
-
-            containerBuilder.RegisterAssemblyTypes(new System.Reflection.Assembly[] { assembly1, assembly2, assembly3 });
-
-            //containerBuilder.RegisterControllers()
-            DependencyResolver.SetResolver(new AutofacDependencyResolver(containerBuilder.Build()));
-        }
+            var assembly1 = System.Reflection.Assembly.GetAssembly(typeof(IRepository<>)); //Domain.Seedwork
+            var assembly2 = System.Reflection.Assembly.GetAssembly(typeof(IQueryableUnitOfWork)); //Data.Seedwork
+            var assembly3 = System.Reflection.Assembly.GetAssembly(typeof(IService));   //Service
+            var assembly4 = System.Reflection.Assembly.GetAssembly(typeof(ICustomerRepository)); //Domain
+            var assembly5 = System.Reflection.Assembly.GetAssembly(typeof(CustomerRepository)); //Data
 
 
+            containerBuilder.RegisterAssemblyTypes(new System.Reflection.Assembly[] { assembly1, assembly2, assembly3, assembly4, assembly5 }).AsImplementedInterfaces();
 
+            containerBuilder.RegisterControllers(typeof(MvcApplication).Assembly);
 
+            var container = containerBuilder.Build();
+            DependencyResolver.SetResolver(new AutofacDependencyResolver(container));
 
+            var customerRepo = container.Resolve<ICustomerRepository>();
+            var customerSvc = container.Resolve<ICustomerService>();
+
+            var tt = string.Empty;
+        } 
     }
 }

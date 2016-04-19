@@ -58,10 +58,6 @@
       <Project>{235e9aa4-7d64-4275-8a7f-3acd6efbc8bb}</Project>
       <Name>Domain.Seedwork</Name>
     </ProjectReference>
-    <ProjectReference Include="..\Infrastucture\Infrastucture.csproj">
-      <Project>{ae49c757-1836-435d-96c3-9c8b959f2536}</Project>
-      <Name>Infrastucture</Name>
-    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

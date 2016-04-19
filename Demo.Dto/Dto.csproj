@@ -42,7 +42,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AutoMapperConfiguration.cs" />
     <Compile Include="Profiles\CustomerProfile.cs" />
+    <Compile Include="ProjectionsExtensionMethods.cs" />
     <Compile Include="ViewModels\CustomerDto.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

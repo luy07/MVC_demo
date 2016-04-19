@@ -5,7 +5,7 @@ namespace Demo.Data.Migrations
     using System.Data.Entity.Migrations;
     using System.Linq;
 
-    internal sealed class Configuration : DbMigrationsConfiguration<Demo.Data.YmatouUnitOfWork>
+    internal sealed class Configuration : DbMigrationsConfiguration<Demo.Data.MainUnitOfWork>
     {
         public Configuration()
         {
@@ -13,7 +13,7 @@ namespace Demo.Data.Migrations
             ContextKey = "Demo.Data.YmatouUnitOfWork";
         }
 
-        protected override void Seed(Demo.Data.YmatouUnitOfWork context)
+        protected override void Seed(Demo.Data.MainUnitOfWork context)
         {
             //  This method will be called after migrating to the latest version.
 

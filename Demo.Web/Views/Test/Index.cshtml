@@ -1,0 +1,29 @@
+﻿@using Demo.Dto;
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Index</title>
+</head>
+<body>
+    <div> 
+        <table border="1">
+        @foreach (var item in (IEnumerable<CustomerDto>)Model)
+        {
+            <tr>
+                <td>@item.FullName</td>
+                <td>@item.Age</td>
+                <td>@item.Birthday</td>
+                <td>@item.Address</td>
+            </tr>
+        }
+            </table>
+    </div>
+</body>
+</html>

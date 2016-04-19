@@ -55,7 +55,7 @@
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="YmatouUnitOfWork.cs" />
+    <Compile Include="MainUnitOfWork.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Data.Seedwork\Data.Seedwork.csproj">

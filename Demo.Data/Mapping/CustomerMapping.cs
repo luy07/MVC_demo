@@ -5,7 +5,7 @@ using System.Data.Entity.ModelConfiguration;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-//test
+
 namespace Demo.Data.Mapping
 {
     public class CustomerEntityTypeConfiguration : EntityTypeConfiguration<Customer>

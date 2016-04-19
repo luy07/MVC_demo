@@ -11,9 +11,9 @@ using System.Threading.Tasks;
 
 namespace Demo.Data
 {
-    public class YmatouUnitOfWork : DbContext, IQueryableUnitOfWork
+    public class MainUnitOfWork : DbContext, IQueryableUnitOfWork
     {
-        public YmatouUnitOfWork()
+        public MainUnitOfWork()
         {
 
         }

@@ -88,7 +88,6 @@ C:\Users\luyuquan\OneDrive\MyCode\StandardMvcDemo\Demo.Web\bin\Demo.Data.pdb
 C:\Users\luyuquan\OneDrive\MyCode\StandardMvcDemo\Demo.Web\bin\Autofac.Integration.Mvc.xml
 C:\Users\luyuquan\OneDrive\MyCode\StandardMvcDemo\Demo.Web\bin\EntityFramework.pdb
 C:\Users\luyuquan\OneDrive\MyCode\StandardMvcDemo\Demo.Web\bin\EntityFramework.SqlServer.pdb
-D:\Documents\GitHub\MVC_Demo\Demo.Web\obj\Debug\Web.csprojResolveAssemblyReference.cache
 D:\Documents\GitHub\MVC_Demo\Demo.Web\bin\Demo.Web.dll.config
 D:\Documents\GitHub\MVC_Demo\Demo.Web\bin\Demo.Web.dll
 D:\Documents\GitHub\MVC_Demo\Demo.Web\bin\Demo.Web.pdb
@@ -98,6 +97,7 @@ D:\Documents\GitHub\MVC_Demo\Demo.Web\bin\Autofac.Integration.Mvc.dll
 D:\Documents\GitHub\MVC_Demo\Demo.Web\bin\Data.Seedwork.dll
 D:\Documents\GitHub\MVC_Demo\Demo.Web\bin\Demo.Data.dll
 D:\Documents\GitHub\MVC_Demo\Demo.Web\bin\Demo.Domain.dll
+D:\Documents\GitHub\MVC_Demo\Demo.Web\bin\Demo.Dto.dll
 D:\Documents\GitHub\MVC_Demo\Demo.Web\bin\Demo.Service.dll
 D:\Documents\GitHub\MVC_Demo\Demo.Web\bin\Domain.Seedwork.dll
 D:\Documents\GitHub\MVC_Demo\Demo.Web\bin\EntityFramework.dll
@@ -125,10 +125,11 @@ D:\Documents\GitHub\MVC_Demo\Demo.Web\bin\System.Web.WebPages.Deployment.dll
 D:\Documents\GitHub\MVC_Demo\Demo.Web\bin\System.Web.WebPages.dll
 D:\Documents\GitHub\MVC_Demo\Demo.Web\bin\System.Web.WebPages.Razor.dll
 D:\Documents\GitHub\MVC_Demo\Demo.Web\bin\WebGrease.dll
-D:\Documents\GitHub\MVC_Demo\Demo.Web\bin\Infrastucture.dll
+D:\Documents\GitHub\MVC_Demo\Demo.Web\bin\AutoMapper.dll
 D:\Documents\GitHub\MVC_Demo\Demo.Web\bin\Data.Seedwork.pdb
 D:\Documents\GitHub\MVC_Demo\Demo.Web\bin\Demo.Data.pdb
 D:\Documents\GitHub\MVC_Demo\Demo.Web\bin\Demo.Domain.pdb
+D:\Documents\GitHub\MVC_Demo\Demo.Web\bin\Demo.Dto.pdb
 D:\Documents\GitHub\MVC_Demo\Demo.Web\bin\Demo.Service.pdb
 D:\Documents\GitHub\MVC_Demo\Demo.Web\bin\Domain.Seedwork.pdb
 D:\Documents\GitHub\MVC_Demo\Demo.Web\bin\Autofac.xml
@@ -156,7 +157,7 @@ D:\Documents\GitHub\MVC_Demo\Demo.Web\bin\Microsoft.Owin.Security.OAuth.xml
 D:\Documents\GitHub\MVC_Demo\Demo.Web\bin\Microsoft.Owin.Security.Google.xml
 D:\Documents\GitHub\MVC_Demo\Demo.Web\bin\Microsoft.Owin.Security.Twitter.xml
 D:\Documents\GitHub\MVC_Demo\Demo.Web\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
-D:\Documents\GitHub\MVC_Demo\Demo.Web\bin\Infrastucture.pdb
+D:\Documents\GitHub\MVC_Demo\Demo.Web\bin\AutoMapper.xml
 D:\Documents\GitHub\MVC_Demo\Demo.Web\bin\zh-Hans\System.Web.Helpers.resources.dll
 D:\Documents\GitHub\MVC_Demo\Demo.Web\bin\zh-Hans\System.Web.Mvc.resources.dll
 D:\Documents\GitHub\MVC_Demo\Demo.Web\bin\zh-Hans\System.Web.Razor.resources.dll
@@ -174,5 +175,6 @@ D:\Documents\GitHub\MVC_Demo\Demo.Web\bin\zh-Hans\Microsoft.Owin.Security.Facebo
 D:\Documents\GitHub\MVC_Demo\Demo.Web\bin\zh-Hans\Microsoft.Owin.Security.Google.resources.dll
 D:\Documents\GitHub\MVC_Demo\Demo.Web\bin\zh-Hans\Microsoft.Owin.Security.Twitter.resources.dll
 D:\Documents\GitHub\MVC_Demo\Demo.Web\bin\zh-Hans\Microsoft.Owin.Security.MicrosoftAccount.resources.dll
+D:\Documents\GitHub\MVC_Demo\Demo.Web\obj\Debug\Web.csprojResolveAssemblyReference.cache
 D:\Documents\GitHub\MVC_Demo\Demo.Web\obj\Debug\Demo.Web.dll
 D:\Documents\GitHub\MVC_Demo\Demo.Web\obj\Debug\Demo.Web.pdb

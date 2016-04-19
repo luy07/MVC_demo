@@ -1,5 +1,7 @@
 ﻿using AutoMapper;
+using AutoMapper.Mappers;
 using Demo.Domain;
+using Domain.Seedwork;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -12,10 +14,12 @@ namespace Demo.Dto.Profiles
     {
 
         protected override void Configure()
-        {
-            var map = Mapper.CreateMap<Customer, CustomerDto>();
-            map.ForMember(dto => dto.FullName, mc => mc.MapFrom(e => e.FirstName + " " + e.LastName));
-            map.ForMember(dto => dto.Birthday, mc => mc.MapFrom(e => e.Birthday.ToString("yyyy.MM.dd")));
+        { 
+            var mapper=CreateMap<Customer, CustomerDto>();
+            mapper.ForMember(dto => dto.FullName, mc => mc.MapFrom(e => e.FirstName + " " + e.LastName));
+            mapper.ForMember(dto => dto.Birthday, mc => mc.MapFrom(e => e.Birthday.ToString("yyyy.MM.dd")));
         }
     }
+
+   
 }

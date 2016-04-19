@@ -223,10 +223,10 @@
     <Content Include="Views\Account\Manage.cshtml" />
     <Content Include="Views\Account\Register.cshtml" />
     <Content Include="Views\Shared\_LoginPartial.cshtml" />
+    <Content Include="Views\Test\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="Views\Test\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="fonts\glyphicons-halflings-regular.woff" />
@@ -247,6 +247,10 @@
     <ProjectReference Include="..\Demo.Domain\Domain.csproj">
       <Project>{82b6e4fc-4c88-4158-bc62-6394f581806f}</Project>
       <Name>Domain</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Demo.Dto\Dto.csproj">
+      <Project>{b72184b8-10b1-4ac6-9334-fb15258bde62}</Project>
+      <Name>Dto</Name>
     </ProjectReference>
     <ProjectReference Include="..\Demo.Service\Service.csproj">
       <Project>{ce3f58a4-7070-4e00-80b6-c1010669a87f}</Project>

@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace Demo.Data
 {
-    public class YmtCS_DbInitializer : DropCreateDatabaseAlways<YmatouUnitOfWork>
+    public class YmtCS_DbInitializer : DropCreateDatabaseIfModelChanges<MainUnitOfWork>
     {
         List<Customer> customers = new List<Customer>();
 
@@ -17,7 +17,7 @@ namespace Demo.Data
             customers.Add(new Customer() { Id=1,FirstName="David",LastName="Hanson",Birthday=new DateTime(1988,7,24),Address="Sanfransisco DLT. North Street"  });
         }
 
-        protected override void Seed(YmatouUnitOfWork context)
+        protected override void Seed(MainUnitOfWork context)
         {
             //做一些数据初始化工作
             foreach (var item in customers)
