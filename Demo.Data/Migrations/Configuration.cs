@@ -10,7 +10,7 @@ namespace Demo.Data.Migrations
         public Configuration()
         {
             AutomaticMigrationsEnabled = true;
-            ContextKey = "Demo.Data.YmatouUnitOfWork";
+            ContextKey = "Demo.Data.MainUnitOfWork";
         }
 
         protected override void Seed(Demo.Data.MainUnitOfWork context)
