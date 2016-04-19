@@ -1,9 +1,0 @@
-C:\Users\luyuquan\OneDrive\MyCode\StandardMvcDemo\Domain.Seedwork\bin\Debug\Domain.Seedwork.dll
-C:\Users\luyuquan\OneDrive\MyCode\StandardMvcDemo\Domain.Seedwork\bin\Debug\Domain.Seedwork.pdb
-C:\Users\luyuquan\OneDrive\MyCode\StandardMvcDemo\Domain.Seedwork\obj\Debug\Domain.Seedwork.dll
-C:\Users\luyuquan\OneDrive\MyCode\StandardMvcDemo\Domain.Seedwork\obj\Debug\Domain.Seedwork.pdb
-D:\Documents\GitHub\MVC_Demo\Domain.Seedwork\bin\Debug\Domain.Seedwork.dll
-D:\Documents\GitHub\MVC_Demo\Domain.Seedwork\bin\Debug\Domain.Seedwork.pdb
-D:\Documents\GitHub\MVC_Demo\Domain.Seedwork\obj\Debug\Domain.Seedwork.csprojResolveAssemblyReference.cache
-D:\Documents\GitHub\MVC_Demo\Domain.Seedwork\obj\Debug\Domain.Seedwork.dll
-D:\Documents\GitHub\MVC_Demo\Domain.Seedwork\obj\Debug\Domain.Seedwork.pdb
