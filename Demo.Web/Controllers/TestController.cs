@@ -27,5 +27,14 @@ namespace Demo.Web.Controllers
 
             return View(vdata);
         }
+
+        public ActionResult One(int id)
+        {
+            var result = customerSvc.GetCustomer(id);
+
+            var vdata = result.ProjectedAs<CustomerDto>();
+
+            return View(vdata);
+        }
 	}
 }

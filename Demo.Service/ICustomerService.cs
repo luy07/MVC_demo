@@ -11,5 +11,6 @@ namespace Demo.Service
     public interface ICustomerService : IService
     {
         PagedResult<Customer> GetEnableCustomer(int pageIndex, int pageSize);
+        Customer GetCustomer(int id);
     }
 }

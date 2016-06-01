@@ -28,14 +28,14 @@ namespace Demo.Web
             var timer = System.Diagnostics.Stopwatch.StartNew();
             SetDependencyResolver();
             timer.Stop();
-            System.Diagnostics.Debug.WriteLine(string.Format("Execute SetDependencyResolver() elapsed：{0} ms !", timer.ElapsedMilliseconds));
+            //System.Diagnostics.Debug.WriteLine(string.Format("Execute SetDependencyResolver() elapsed：{0} ms !", timer.ElapsedMilliseconds));
 
             timer.Restart();
             //初始化数据库
             new YmtCS_DbInitializer().InitializeDatabase(new MainUnitOfWork());
 
               timer.Stop();
-            System.Diagnostics.Debug.WriteLine(string.Format("InitializeDatabase() elapsed：{0} ms !", timer.ElapsedMilliseconds));
+            //System.Diagnostics.Debug.WriteLine(string.Format("InitializeDatabase() elapsed：{0} ms !", timer.ElapsedMilliseconds));
         }
 
 

@@ -57,7 +57,7 @@ namespace Domain.Seedwork
         /// </summary>
         /// <param name="id">Entity key value</param>
         /// <returns></returns>
-        TEntity Get(Guid id);
+        TEntity Get<TKey>(TKey id);
 
         /// <summary>
         ///    Get all elements of type TEntity in repository

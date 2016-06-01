@@ -140,9 +140,10 @@ namespace Data.Seedwork
         /// </summary>
         /// <param name="id"></param>
         /// <returns></returns>
-        public virtual TEntity Get(Guid id)
+        public virtual TEntity Get<TKey>(TKey id)
         {
-            if (id != Guid.Empty)
+
+            if (true)
             {
                 return GetSet().Find(id);
             }

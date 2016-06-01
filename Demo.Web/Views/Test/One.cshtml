@@ -1,0 +1,29 @@
+﻿@{
+    Layout = null;
+}
+@model Demo.Dto.CustomerDto
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>One</title>
+</head>
+<body>
+    <div>
+        <div>
+            <label>FullName:</label>    @Html.DisplayFor(m => m.FullName)
+        </div>
+         <div>
+            <label>Birthday:</label>    @Html.DisplayFor(m => m.Birthday)
+        </div> 
+        <div>
+            <label>Age:</label>    @Html.DisplayFor(m => m.Age)
+        </div> 
+        <div>
+            <label>Address:</label>    @Html.DisplayFor(m => m.Address)
+        </div>
+    </div>
+</body>
+</html>
