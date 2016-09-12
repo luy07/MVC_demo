@@ -11,6 +11,7 @@ using System.Threading.Tasks;
 
 namespace Demo.Data
 {
+    [DbConfigurationType(typeof(MySql.Data.Entity.MySqlEFConfiguration))]
     public class MainUnitOfWork : DbContext, IQueryableUnitOfWork
     {
         public MainUnitOfWork()
